@@ -50,7 +50,7 @@ def calculator():
 
         next_calculation = input("Do you want to perform another calculation? (yes/no): ")
         if next_calculation.lower() != 'yes':
-            print("Goodbye!")
+            print("bye!")
             break
 
 calculator()
